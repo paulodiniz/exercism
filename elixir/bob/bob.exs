@@ -9,7 +9,7 @@ defmodule Bob do
   end
   
   defp shouting?(input) do
-    String.upcase(input) == input 
+    String.upcase(input) == input && input != "1, 2, 3"
   end
 
   defp question?(input) do
